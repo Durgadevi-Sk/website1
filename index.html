@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Cakes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Delicious Cakes</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="banner">
+        <h2>Welcome to Delicious Cakes</h2>
+        <p>Your dream cake is just a click away!</p>
+        <button onclick="orderNow()">Order Now</button>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Delicious Cakes, we craft cakes that not only taste amazing but look spectacular.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="cake">
+            <img src="https://durgadevi.s3.ap-south-1.amazonaws.com/cake1.jpg" alt="Chocolate Cake">
+            <h3>Chocolate Cake</h3>
+            <p>$25.00</p>
+        </div>
+        <div class="cake">
+            <img src="https://durgadevi.s3.ap-south-1.amazonaws.com/cake2.jpg" alt="Vanilla Cake">
+            <h3>Vanilla Cake</h3>
+            <p>$20.00</p>
+        </div>
+        <div class="cake">
+            <img src="cake3.jpg" alt="Strawberry Cake">
+            <h3>Strawberry Cake</h3>
+            <p>$22.00</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Delicious Cakes. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
